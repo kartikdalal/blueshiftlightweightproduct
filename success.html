@@ -4,15 +4,19 @@
 	</head>
 
 	<body>
-
 		<div class="row">
 			<div class="col-sm-8 col-sm-offset-2">
-				<h1>Here's your score!</h1>
+				<h1>Hi <span id="name">, Here's your score!</span></h1>
 				<p>Good job, you're scoring high!</p>
 			</div>
 		</div>
 		<br>
 	</body>
+
+	<script type='text/javascript' src='http://code.jquery.com/jquery-2.1.4.min.js'></script>
+	<script type="text/javascript">
+	 	$("#name").text(FormSubmission["name"])
+	</script>
 
 </html>
 
